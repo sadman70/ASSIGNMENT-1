@@ -244,3 +244,77 @@ background-color: rgba(255, 194, 57, 1);
     font-size: 16px;
  color: rgba(14, 14, 14, 0.6);
 }
+/* opion matters style */
+.opinion{
+     margin-top: 66px;
+     margin-bottom: 66px;
+}
+.table{
+   
+    padding:0 32px 32px 32px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius:16px ;
+}
+table{
+ width: 100%;
+ 
+ border-collapse: collapse;
+}
+.thead{
+  
+    justify-content: space-between;
+    padding: 24px;
+   
+}
+th {
+     background-color:rgba(198, 228, 214, 1) ;
+    font-size: 20px;
+    font-weight: bold;
+    
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    
+    
+}
+th ul li{
+  
+    list-style: none;
+}
+th ul{
+    display: flex;
+    
+    gap: 900px;
+    
+}
+.tbody{
+  
+}
+.question{
+    font-size: 16px;
+    font-weight: bold;
+    width: 800px;
+   
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 36px 24px;
+    }
+.option{
+    
+    width: 126px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding:24px 0 24px 24px;
+}
+select{
+    width: 126px;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: bold;
+    border:1px solid rgba(14, 14, 14, 1);
+    border-radius: 4px;
+    
+    padding: 12px 5px ;
+   align-items: center;
+    background-color: rgba(198, 228, 214, 1);
+}
+option{
+     
+}
+
