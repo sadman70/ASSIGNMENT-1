@@ -111,7 +111,7 @@ nav ul li{
 
 }
 main{
-
+ font-style: italic;
  margin: 0 100px 0 120px  ;
 }
 main section{
@@ -149,4 +149,98 @@ main section{
 font-style: italic;
 font-size: 16px;
 color:rgba(14, 14, 14, 0.7) ;
+}
+/* future vision styles */
+.future-vision{
+ gap: 32px;
+ margin-bottom: 32px;
+}
+.section-description{
+    font-size: 16px;
+
+ color: rgba(14, 14, 14, 0.7);
+}
+.vision-container{
+    display: flex;
+    gap: 24px;
+    padding:32px 0 ;
+    justify-content:space-around;align-items: center;
+}
+.vision{
+   padding: 32px;
+     border-radius: 16px ;
+     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+     width: 340px;
+}
+.vision-tittle{
+    font-size: 20px;
+    font-weight: bold;
+ color: rgba(14, 14, 14, 0.8);
+}
+.vision-description{
+    font-size: 16px;
+ color: rgba(14, 14, 14, 0.7);
+ width: 288px;
+}
+.btn{
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: bold;
+  padding: 11px 20px;
+  border-radius: 8px;
+  border: none;
+}
+.bg-1{
+ background-color: rgba(84, 144, 245, 0.2);
+}
+
+.btn-1{
+ background-color: rgba(84, 144, 245, 1);
+}
+.btn-1:hover{
+    color:rgba(84, 144, 245, 1) ;
+    background-color: white;
+}
+.bg-2{
+background-color: rgba(198, 228, 214, 1);
+}
+.btn-2{
+background-color: rgba(9, 161, 92, 1);
+}
+.btn-2:hover{
+    color:rgba(9, 161, 92, 1) ;
+    background-color: white;
+}
+.bg-3{
+background-color:rgba(247, 235, 207, 1) ;
+}
+.btn-3{
+background-color: rgba(255, 194, 57, 1);
+}
+.btn-3:hover{
+    color:rgba(255, 194, 57, 1) ;
+    background-color: white;
+}
+.speech{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 24px 24px  ;
+    gap: 24px ;
+    border-radius: 16px ;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 48px 24px;
+}
+.speech-description{
+    font-size: 16px;
+ color: rgba(14, 14, 14, 0.8);
+ margin-bottom: 12px;
+}
+.speech-tittle{
+    font-size: 20px;
+    font-weight: bold;
+ color: rgba(14, 14, 14, 0.8);
+}
+.speech-sub-tittle{
+    font-size: 16px;
+ color: rgba(14, 14, 14, 0.6);
 }
