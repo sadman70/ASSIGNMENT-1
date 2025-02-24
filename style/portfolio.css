@@ -58,7 +58,7 @@ nav ul li{
 
 .btn-primary:hover {
     color: black;
-       background-color: #ffe677;
+       background-color: #ffffff;
 }
 .btn-primary-1:hover{
     color: white;
@@ -122,6 +122,7 @@ main section{
     font-size: 40px;
     font-weight: bold;
     font-style: italic;
+    margin-bottom: 24px;
 }
 /* pillars styles */
 .pillars{
@@ -189,6 +190,7 @@ color:rgba(14, 14, 14, 0.7) ;
   padding: 11px 20px;
   border-radius: 8px;
   border: none;
+  cursor: pointer;
 }
 .bg-1{
  background-color: rgba(84, 144, 245, 0.2);
@@ -309,7 +311,7 @@ select{
     font-weight: bold;
     border:1px solid rgba(14, 14, 14, 1);
     border-radius: 4px;
-    
+    cursor: pointer;
     padding: 12px 5px ;
    align-items: center;
     background-color: rgba(198, 228, 214, 1);
@@ -317,4 +319,167 @@ select{
 option{
      
 }
+/* recent news styles */
+.recent-news{
+
+}
+
+
+.section-description-1{
+   
+ margin-bottom: 32px ;
+}
+.news-container{
+    display: flex;
+    flex-direction: column;
+  gap: 24px;
+}
+.news{
+    height: 315px;
+ display: flex;
+align-items: center;
+ box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.08);
+ gap: 32px;
+ padding: 48px;
+ border-radius: 24px;
+}
+.n-1{
+    padding: 0 0 50px 0;
+}
+.img{
+ border-radius: 24px;
+ 
+}
+
+.news-tittle{
+  font-style: italic;
+  font-weight: bold;
+  font-size: 32px;
+  color: rgba(14, 14, 14, 0.8);
+  margin-bottom: 12px;
+  
+}
+.icon{
+    width: 111px;
+    height: 33px;
+    margin-bottom: 3px;
+   
+}
+.date{
+
+height:22px ;
+margin-bottom: 12px;
+ font-style: italic;
+ font-size: 16px;
+ color: rgba(14, 14, 14, 0.7);
+}
+.news-description{
+    font-style: italic;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 32px;
+}
+.button{
+font-weight: bold;
+font-size: 18px;
+color: rgba(255, 255, 255, 1);
+background-color: rgba(0, 106, 80, 1);
+border-radius:8px ;
+border: none;
+padding:13px 26px ;
+cursor: pointer;
+
+}
+.button:hover{
+    color:rgb(0, 0, 0) ;
+    background-color: rgb(154, 191, 240);
+    
+}
+ /* donate style */
+ .donate-today{
+    margin-bottom: 80px;
+    padding: 0 103px 0 103px;
+ }
+
+   
+
+.sec-1{
+    margin-bottom: 24px;
+    text-align: center;
+}
+.sec-2{
+   display: flex;
+   /* justify-content: center; */
+    text-align: center;
+     font-size: 16px;
+    margin-bottom:0px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.amounts{
+ display: flex;
+ justify-content: space-around;
+ 
+}
+.amount{
+ font-style: italic;
+ font-size: 40px;
+ font-weight: bold;
+ padding: 40px;
+ box-shadow:0px 6px 50px 0px rgba(14, 14, 14, 0.15);
+ color: rgba(14, 14, 14, 0.8);
+ border-radius: 16px;
+ margin-bottom: 32px;
+}
+.amount:hover{
+    background-color: rgb(161, 228, 197);
+}
+.input{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ 
+
+ 
+}
+input{
+    width: 856px;
+    color: rgba(14, 14, 14, 0.3);
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow:0px 6px 50px 0px rgba(14, 14, 14, 0.15);
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 40px;
+    display: flex;
+   margin-bottom: 32px;
+}
+.buttn{
+   
+    border-radius: 8px;
+    box-shadow:0px 6px 50px 0px rgba(14, 14, 14, 0.1);
+    border: none;
+    padding: 17px 34px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 106, 80, 1);
+    cursor: pointer;
+}
+.Done-Now{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.buttn:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(161, 228, 197);
+}
+
+
+
+
+
+
+
 
