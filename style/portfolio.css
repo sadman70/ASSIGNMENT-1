@@ -230,7 +230,7 @@ background-color: rgba(255, 194, 57, 1);
     gap: 24px ;
     border-radius: 16px ;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-    padding: 48px 24px;
+    padding: 38px 24px;
 }
 .speech-description{
     font-size: 16px;
@@ -438,10 +438,10 @@ cursor: pointer;
  align-items: center;
  justify-content: center;
  
-
+ margin: 0 124px 0 124px ;
  
 }
-input{
+.input input:nth-child(1){
     width: 856px;
     color: rgba(14, 14, 14, 0.3);
     background-color: rgba(255, 255, 255, 1);
@@ -451,7 +451,7 @@ input{
     text-align: center;
     padding: 20px 40px;
     display: flex;
-   margin-bottom: 32px;
+    margin-bottom: 32px;
 }
 .buttn{
    
@@ -464,6 +464,7 @@ input{
     color: rgba(255, 255, 255, 1);
     background-color: rgba(0, 106, 80, 1);
     cursor: pointer;
+
 }
 .Done-Now{
     display: flex;
@@ -475,11 +476,83 @@ input{
     color: rgb(0, 0, 0);
     background-color: rgb(161, 228, 197);
 }
+/* newsletter style */
+.newsletter{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 80px 266px 80px 266px;
+background-color: rgba(198, 228, 214, 1);
+border-radius: 24px;
+gap: 24px;
+
+}
 
 
+.description{
+    width: 622px;
+text-align: center;
+}
 
+.sec-tittle{
+    text-align: center;
+}
+.sd{
+  
+}
+.response{
+    display: flex;
 
-
-
-
+    
+}
+.response input:nth-child(1){
+  font-size: 16px;
+  color: black;
+    padding: 20px 18px;
+    border-radius:8px 0 0 8px;
+    width: 600px;
+    border: none;
+}
+.btton{
+    width: 122px;
+    border-radius: 0 8px 8px 0;
+    border: none;
+    color: white;
+    background-color:rgba(0, 106, 80, 1) ;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 17px 8px 17px 8px ;
+}
+.btton:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(161, 228, 197);
+}
+.promise{
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+}
+/* footer style */
+.footer{
+ align-items: center;
+ justify-content: center;
+ padding: 50px 160px;
+ box-shadow:0px 6px 60px 0px rgba(14, 14, 14, 0.10);
+ gap: 32px;
+}
+.ftr-tittle{
+ text-align: center;
+ margin-bottom: 32px;
+}
+.imgs{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    gap: 23px;
+    margin-top:32px ;
+}
+.icn{
+ cursor: pointer;
+}
 
